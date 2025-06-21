@@ -22,19 +22,19 @@ function Products() {
         <div className='w-full h-full absolute top-0 pointer-events-none'>
           <motion.div initial={{y: pos}} animate={{y:pos+"rem"}} className='w-[32rem] h-[23rem] absolute left-[43%] -translate-x-[50%] translate-y-[0rem] bg-amber-500 overflow-hidden '>
             <motion.div animate={{y:-pos+"rem"}} transition={{ease: [0.76,0,0.24,1], duration:0.6}} className='window w-full h-full bg-sky-100'>
-               <video autoPlay muted className="w-full h-full object-cover"><source src="src\assets\arqitel-D3jJRwFT.mp4" type="video/mp4" /> </video>
+               <video autoPlay muted className="w-full h-full object-cover"><source src="\arqitel-D3jJRwFT.mp4" type="video/mp4" /> </video>
             </motion.div>
             <motion.div animate={{y:-pos+"rem"}} transition={{ease: [0.76,0,0.24,1], duration:0.6}} className='window w-full h-full bg-sky-200'>
-              <video autoPlay muted className="w-full h-full object-cover"><source src="src\assets\ttr-CUQdDHBj.mp4" type="video/mp4" /> </video>
+              <video autoPlay muted className="w-full h-full object-cover"><source src="\ttr-CUQdDHBj.mp4" type="video/mp4" /> </video>
             </motion.div>
             <motion.div animate={{y:-pos+"rem"}} transition={{ease: [0.76,0,0.24,1], duration:0.6}} className='window w-full h-full bg-sky-300'>
-              <video autoPlay muted className="w-full h-full object-cover"><source src="src\assets\yir-BzJiRbqx.mp4" type="video/mp4" /> </video>
+              <video autoPlay muted className="w-full h-full object-cover"><source src="\yir-BzJiRbqx.mp4" type="video/mp4" /> </video>
             </motion.div>
             <motion.div animate={{y:-pos+"rem"}} transition={{ease: [0.76,0,0.24,1], duration:0.6}} className='window w-full h-full bg-sky-400'>
-              <video autoPlay muted className="w-full h-full object-cover"><source src="src\assets\yahoo-D7WzLbum.mp4" type="video/mp4" /> </video>
+              <video autoPlay muted className="w-full h-full object-cover"><source src="\yahoo-D7WzLbum.mp4" type="video/mp4" /> </video>
             </motion.div>
             <motion.div animate={{y:-pos+"rem"}} transition={{ease: [0.76,0,0.24,1], duration:0.6}} className='window w-full h-full bg-sky-500'>
-              <video autoPlay muted className="w-full h-full object-cover"><source src="src\assets\rainfall-BZC7HG1T.mp4" type="video/mp4" /> </video>
+              <video autoPlay muted className="w-full h-full object-cover"><source src="\rainfall-BZC7HG1T.mp4" type="video/mp4" /> </video>
             </motion.div>
           </motion.div>
         </div>
